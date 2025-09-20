@@ -1,28 +1,51 @@
 How to run the online decoration booking management system (ODMS) Project
-
 1. Download the  zip file
-
 2. Extract the file and copy decoration folder
-
 3.Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
-
 4. Open PHPMyAdmin (http://localhost/phpmyadmin)
-
 5. Create a database with name decoration
-
 6. Import decoration.sql file(given inside the zip package in SQL file folder)
-
 7.Run the script http://localhost/decoration (frontend)
 
 Credential for admin panel :
-
 Username: admin 
-
 Password: 1234
 
-
 This project is free to use both personal and commercial
-
 For commercial use, we recommend to first contact us to give support, improve on security and to add more useful functionalities
+All our services are free don't fear to contact us on sayedsahim2211@gmail.com
 
-All our services are free don't fear to contact us on code4berryteam@gmail.com
+# Decoration Booking Management System
+
+A web-based system to manage decoration bookings for events like weddings, parties, and corporate events. The system allows users to book services, browse the gallery, and the admin can manage requests based on availability.
+
+## Features
+
+- **User Panel**:
+  - Browse decoration services (weddings, parties, etc.)
+  - Make bookings for events
+  - View booking status
+  - Contact section
+
+- **Admin Panel**:
+  - Manage and approve/reject booking requests
+  - View customer details
+  - Manage available services
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap
+- **Backend**: PHP, MySQL
+
+## Setup Instructions
+
+### Prerequisites
+
+- A web server with **PHP** support (e.g., XAMPP, WAMP, or similar)
+- **MySQL** installed
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/sahimsayed/decoration-booking-management-system.git
